@@ -29,5 +29,6 @@
   - 后端：IDEA2020。
 
 - 3.1.2 技术选型
+
 ![image](https://github.com/LYuYang61/homework-submission/assets/131588563/b0fa1ca9-cfbe-49af-bac7-0ca0143defce)
 
