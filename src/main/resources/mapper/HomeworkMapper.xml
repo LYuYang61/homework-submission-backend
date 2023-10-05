@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuebao.homeworksubmission.mapper.HomeworkMapper">
+
+    <resultMap id="BaseResultMap" type="com.xuebao.homeworksubmission.model.domain.Homework">
+            <id property="homeworkID" column="homeworkID" jdbcType="TIMESTAMP"/>
+            <result property="homeworkTitle" column="homeworkTitle" jdbcType="VARCHAR"/>
+            <result property="homeworkComment" column="homeworkComment" jdbcType="VARCHAR"/>
+            <result property="fileType" column="fileType" jdbcType="OTHER"/>
+            <result property="endTime" column="endTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        homeworkID,homeworkTitle,homeworkComment,
+        fileType,endTime
+    </sql>
+</mapper>
