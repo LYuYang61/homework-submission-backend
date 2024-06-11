@@ -1,5 +1,6 @@
 package com.xuebao.homeworksubmission.model.domain;
 
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -17,7 +18,7 @@ public class Homework implements Serializable {
     /**
      * 作业ID，用于表示作业
      */
-    @TableId
+    @TableId(type = IdType.AUTO)
     private Integer homeworkID;
 
     /**
